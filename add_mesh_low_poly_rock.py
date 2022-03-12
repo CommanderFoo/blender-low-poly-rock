@@ -54,7 +54,7 @@ def create_mesh(ctx, scene, generator):
 	bmesh.ops.create_icosphere(bm,
 
 		subdivisions = generator.subdivisions_prop,
-		diameter = generator.radius_prop
+		radius = generator.radius_prop
 
 	)
 
